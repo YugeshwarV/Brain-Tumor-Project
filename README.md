@@ -5,18 +5,18 @@ This project builds an AI-based solution to classify brain MRI scans into four t
 
 ---
 
-## 🚀 Project Highlights
+## Project Highlights
 
-- ✅ Fine-tuned **EfficientNetB0** with PyTorch
-- 🎯 Test Accuracy: **96%**
-- 🧠 Supports 4 tumor classes
-- 🧪 Robust to class imbalance (via Focal Loss)
-- 🔁 Enhanced generalization (RandAugment + Vertical Flip)
-- 🌐 Real-time predictions using **Streamlit Web App**
+- Fine-tuned **EfficientNetB0** with PyTorch
+- Test Accuracy: **96%**
+- Supports 4 tumor classes
+- Robust to class imbalance (via Focal Loss)
+- Enhanced generalization (RandAugment + Vertical Flip)
+- Real-time predictions using **Streamlit Web App**
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Class       | Precision | Recall | F1-Score |
 |-------------|-----------|--------|----------|
@@ -28,7 +28,7 @@ This project builds an AI-based solution to classify brain MRI scans into four t
 
 ---
 
-## 🧠 Dataset
+## Dataset
 
 - 4 categories: **glioma**, **meningioma**, **no_tumor**, **pituitary**
 - Images are grayscale/RGB, resized to **224×224**
@@ -38,7 +38,7 @@ This project builds an AI-based solution to classify brain MRI scans into four t
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠Tech Stack
 
 - **Python**
 - **PyTorch** — model training
@@ -48,7 +48,7 @@ This project builds an AI-based solution to classify brain MRI scans into four t
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 brain-tumor-classifier/
@@ -60,12 +60,12 @@ brain-tumor-classifier/
 
 ---
 
-## 🔧 How to Run Locally
+## How to Run Locally
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/brain-tumor-classifier.git
+git clone https://github.com/your-username/Brain-Tumor-Project.git
 cd brain-tumor-classifier
 ```
 
@@ -79,22 +79,13 @@ pip install streamlit torch torchvision pillow scikit-learn matplotlib numpy
 ### 3. Launch the App
 
 ```bash
-streamlit run brain_tumor_app.py
+streamlit run btapp.py
 ```
-
-Then open: [http://localhost:8501](http://localhost:8501)
-
----
-
-## 🌐 Deployment Options
-
-- ✅ Run locally via `streamlit run`
-- ☁️ [Streamlit Cloud](https://streamlit.io/cloud)
-- ☁️ [Hugging Face Spaces](https://huggingface.co/spaces)
+- Run locally via `streamlit run`
 
 ---
 
-## 📦 Model Details
+## Model Details
 
 - Model: **EfficientNetB0**
 - Fine-tuned layers: `features.6` and `classifier`
@@ -103,7 +94,7 @@ Then open: [http://localhost:8501](http://localhost:8501)
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - EfficientNetB0 from [torchvision.models](https://pytorch.org/vision/stable/models.html)
 - Streamlit for rapid deployment
