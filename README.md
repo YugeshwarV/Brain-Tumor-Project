@@ -54,7 +54,6 @@ This project builds an AI-based solution to classify brain MRI scans into four t
 brain-tumor-classifier/
 ├── brain_tumor_app.py           # Streamlit app
 ├── efficientnet_b0_final.pt     # Trained model file
-├── requirements.txt             # Python dependencies
 ├── README.md                    # Documentation
 └── data/                        # (Optional) Dataset structure
 ```
